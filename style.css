@@ -1,0 +1,90 @@
+#main {
+    text-align: center;
+    background-color: #ffffff; 
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#tribute-info {
+    width: 800px;
+    margin: 0 auto;
+    line-height: 2;
+    background-color: #e1f4f3;
+}
+
+#title {
+    margin: 50px auto;
+    width: fit-content;
+    font-size: 100px;
+    color: #333333;
+    font-family: 'Marcellus SC', serif;
+}
+
+#disc {
+    margin: 0 auto 30px;
+    width: fit-content;
+    color: #706c61;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#img-div {
+    width: 500px;
+    margin: 0 auto 50px;
+}
+
+#img {
+    max-width: 100%;
+}
+
+#img-caption {
+    font-size: 30px;
+}
+
+.list {
+    text-align: left;
+}
+
+.date {
+    font-weight: bolder;
+    margin-right: 0.6rem;
+    float: left;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 25px;
+    width: 500px;
+    line-height: 2;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.more-info {
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+hr::after {
+    background: #fff;
+    content: 'MORE';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+table {
+    margin: 0 auto;
+}
